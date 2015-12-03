@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if (IE 9)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en-US"> <!--<![endif]-->
+<head>
+
+<!-- Meta Tags -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>TecnoRollo | Tecnologías en Desarrollo</title>   
+
+<meta name="description" content="Insert Your Site Description" /> 
+
+<!-- Mobile Specifics -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="true"/>
+<meta name="MobileOptimized" content="320"/>   
+
+<!-- Mobile Internet Explorer ClearType Technology -->
+<!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+<!-- Bootstrap -->
+<link href="_include/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Main Style -->
+<link href="_include/css/main.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- FancyBox -->
+<link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+<!-- Font Icons -->
+<link href="_include/css/fonts.css" rel="stylesheet">
+
+<!-- Shortcodes -->
+<link href="_include/css/shortcodes.css" rel="stylesheet">
+
+<!-- Responsive -->
+<link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+<link href="_include/css/responsive.css" rel="stylesheet">
+
+<!-- Supersized -->
+<link href="_include/css/supersized.css" rel="stylesheet">
+<link href="_include/css/supersized.shutter.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="#">
+
+<link rel="apple-touch-icon" href="#">
+<link rel="apple-touch-icon" sizes="114x114" href="#">
+<link rel="apple-touch-icon" sizes="72x72" href="#">
+<link rel="apple-touch-icon" sizes="144x144" href="#">
+
+<!-- Modernizr -->
+<script src="_include/js/modernizr.js"></script>
+
+<!-- Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'Insert Your Code']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- End Analytics -->
+
+</head>
+
+
+<body>
+
+<!-- This section is for Splash Screen -->
+<div class="ole">
+<section id="jSplash">
+	<div id="circle"></div>
+</section>
+</div>
+<!-- End of Splash Screen -->
+
+<!-- Homepage Slider -->
+<div id="home-slider">	
+    <div class="overlay"></div>
+
+    <div class="slider-text">
+    	<div id="slidecaption"></div>
+    </div>   
+	
+	<div class="control-nav">
+        <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
+        <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
+        <ul id="slide-list"></ul>
+        
+        <a id="nextsection" href="#work"><i class="font-icon-arrow-simple-down"></i></a>
+    </div>
+</div>
+<!-- End Homepage Slider -->
+
+<!-- Header -->
+<header>
+    <div class="sticky-nav">
+    	<a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+        
+        <div id="logo">
+        	<a id="goUp" href="#home-slider" title="TecnoRollo | Home Page">dfd</a>
+        </div>
+        
+        <nav id="menu">
+        	<ul id="menu-nav">
+            	<li class="current"><a href="#home-slider">Inicio</a></li>
+                <li><a href="#work">Portafolio</a></li>
+                <li><a href="#about">Acerca de Nosotros</a></li>
+                <li><a href="#contact">Contactanos</a></li>				
+            </ul>
+        </nav>
+        
+    </div>
+</header>
+<!-- End Header -->
+
+<!-- Our Work Section -->
+<div id="work" class="page">
+	<div class="container">
+    	<!-- Title Page -->
+        <div class="row">
+            <div class="span12">
+                <div class="title-page">
+                    <h2 class="title">Portafolio</h2>
+                    <h3 class="title-description">Nuestros proyectos.</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Title Page -->
+        
+        <!-- Portfolio Projects -->
+        <div class="row">
+        	<div class="span3">
+            	<!-- Filter -->
+                <nav id="options" class="work-nav">
+                    <ul id="filters" class="option-set" data-option-key="filter">
+                    	<li class="type-work">Tipo de proyectos</li>
+                        <li><a href="#filter" data-option-value="*" class="selected">Todos los proyectos</a></li>
+                        <li><a href="#filter" data-option-value=".design">Realidad Aumentada</a></li>
+                        <li><a href="#filter" data-option-value=".photography">Aplicaciones Moviles</a></li>
+                        <li><a href="#filter" data-option-value=".video">Videos</a></li>
+                    </ul>
+                </nav>
+                <!-- End Filter -->
+            </div>
+            
+            <div class="span9">
+            	<div class="row">
+                	<section id="projects">
+                    	<ul id="thumbs">
+                        
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="RA Momentos Historicos" href="_include/img/work/full/CamaraRA.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/commingsoon2.png" alt="
+                                “RA Momentos Históricos”, tiene como finalidad recrear y mantener los momentos  más relevantes en la historia  de la Rivera Maya, utilizando tecnologías de Geolocalización, realidad aumentada y modelado 3D.
+                                El usuario podrá visualizar como fueron en todo su esplendor, los complejos arqueológicos tales como ruinas, centros ceremoniales, castillos, templos y pirámides."><div class="slide-content" id="alinear"><br>RA Momentos Historicos</div>
+
+                            </li>
+
+
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="RA Magazine" href="_include/img/work/full/Carros.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/magazine.jpg" alt="El mundo es mobile y tu empresa necesita una estrategia. Desarrollamos apps con realidad aumentada para: catálogos, revistas, anuncios publicitarios, restaurantes… etc"><div class="slide-content" id="alinear"><br>Realidad Aumentada en Revistas</div>
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="RA Restaurant" href="_include/img/work/full/comida.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/1.jpg" alt="Encamina tu negocio utilizando lo ultimo en tecnología digital. Deja que le demos
+                                vida a los menús de tus platillos e incrementa tus ganancias a través del impacto visual">
+                                <div class="slide-content" id="alinear"><br>RA Restaurante</div>
+                            </li>
+                        	<!-- End Item Project -->
+                            
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs special3 photography">
+                                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Mobile App My Healthy Friend" href="_include/img/work/full/friend.png">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/mascota.png" alt="Con esta aplicación, podrá llevar al día y tener todo anotado con respecto al cuidado de tu mascota. “My Healthy Friend” es una aplicación diseñada para revisar la salud de tu mascota.
+    
+                                De este modo podrás anotar todas las citas con el veterinarios, su calendario de vacunas, las medicinas que han de tomar,  alergias o alimento especial de tus mascotas.">
+                                <div class="slide-content" id="alinear"><br>Mobile App My Healthy Friend</div>
+                            </li>
+                            <!-- End Item Project -->
+
+                            <li class="item-thumbs span3"></li>
+
+                            <!-- Item Project and Filter Name -->
+                            <li class="item-thumbs special photography special5">
+                                <!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                                <a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Google CardBoard Apps" href="_include/img/work/full/travel.jpg">
+                                    <span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/GoogleCardboard.png" alt="Estamos trabajando en el desarrollo del tour virtual mas
+                                impactante de la Riviera Maya. Nuestra meta es poderte acercar a un fragmento del pasado, en donde tu puedas experimentar
+                                la vida de nuestros antepasados, sumergiendote en un mundo virtual en donde todo es posible
+                                ">
+                                <div class="slide-content" id="alinear"><br>Google CardBoard App</div>
+                            </li>
+                            <!-- End Item Project -->
+
+
+
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span4 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Youtube" href="https://www.youtube.com/watch?v=UqKhYOl7QWE">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/video1.png" alt="Video">
+                                <div class="slide-content" id="alinear"><br>Video promocional RAMH</div>
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<br>
+                            <br>
+                           
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs special2 video">
+                            	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Content From Youtube" href="https://www.youtube.com/watch?v=kh8FeLQrXgE">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/RA.jpg" alt="Video RAMH Time Travel">
+                                <div class="slide-content" id="alinear"><br>Video promocional RAMH Time Travel</div>
+                            </li>
+
+
+                        	<!-- End Item Project -->
+
+
+                            
+                            
+							
+                            
+							
+                        </ul>
+                    </section>
+                    
+            	</div>
+            </div>
+        </div>
+
+        <!-- End Portfolio Projects -->
+    </div>
+</div>
+<!-- End Our Work Section -->
+
+<!-- About Section -->
+<div id="about" class="page-alternate">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page"id="alinear">
+                <h1 class="title">Acerca de Nosotros</h1>
+                <h2 class="title-description">¿Quiénes somos?</h2>
+                <br>
+                <p>La empresa TECNOROLLO nace en el año 2015, teniendo su origen en Playa del Carmen Quintana Roo, Mx; conformada inicialmente por estudiantes de la Universidad Tecnológica de la Riviera Maya de la carrera TSU en Tecnologías de la información y comunicaciones teniendo como objetivo la aplicación de proyectos a través de las tecnologías de la información, donde se brindarían soluciones a problemas de administración, transporte y optimización de datos.
+                </p>
+                <br>
+                <h3>Misión</h3>
+                <p>
+                    
+                     
+                     Desarrollar proyectos a través de las tecnologías de la información, donde brindemos soluciones a un problema de administración, transporte y optimización de datos, de tal manera que se genere un ahorro del factor tiempo.
+                </p>
+                <h3>Visión</h3>
+                <p>
+                    
+                    
+                    Ser líderes en la Riviera Maya, innovando soluciones con los más altos estándares de  calidad y compromiso hacia nuestros clientes, que evolucione con los cambios de la tecnología, las nuevas generaciones y la actual sociedad, que promueva el desarrollo personal y profesional de sus colaboradores y de las personas con las que se interactúan. 
+                </p>
+                <h3>Valores</h3>
+                <p>
+                    Formar colaboradores  con principios y valores que se vean reflejados en un excelente servicio al cliente. Para lograr estos objetivos nos entregamos a los valores que en sus siglas compone OMEGA.
+                    <br>
+                    <br>
+                    <strong id="red">O</strong>rgullo: Sintiéndonos con una gran satisfacción de colaborar en un equipo 100% emprendedor.
+                    <br>
+                    <strong id="red">M</strong>otivación: Día a día es un reto a cumplir. Todos nuestros colaboradores se unen bajo la pasión de la innovación.
+                    <br>
+                    <strong id="red">E</strong>quipo: Cada integrante forma parte de nuestra familia por lo que  es fácil colaborar con equidad y compañerismo.
+                    <br>
+                    <strong id="red">G</strong>ratitud: Es el sinónimo del valor de agradecimiento por parte de nuestros clientes.
+                    <br>
+                    <strong id="red">A</strong>mor: El más sublime de los valores y que nos acompaña en cada momento de nuestra carrera al éxito.
+
+
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h1>Conoce nuestro equipo de trabajo</h1>
+
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- People -->
+    <div class="row">
+    	
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">CEO/Fundador</span>
+                </div>
+                <img src="_include/img/profile/profile-01.png" alt="Miguel Ángel R.L.">
+            </div>
+            <h3 class="profile-name">Miguel Ángel Ramírez López</h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la 
+                <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p> 
+            <p>Procedente de México, DF.
+            <br>Recide actualmente en Playa del Carmen, Qroo.
+            
+            <br>Reflexión con la que se indentifica: “Si te piden que camines un kilómetro, camina dos”– Og Mandino
+            </p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                    <li><a href="https://www.facebook.com/miguel.ramilopez"><i class="font-icon-social-facebook"></i></a></li>
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        
+        <!-- Start Profile -->
+    	<div class="span4 profile">
+        	<div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">COO/Fundadora</span>
+                </div>
+                <img src="_include/img/profile/profile-02.png" alt="Diana Barajas">
+            </div>
+            <h3 class="profile-name">Diana Estefanía Barajas Reyes </h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p> 
+            <p>Procedente de Guadalajara, Jal.
+            <br>Recide actualmente en Playa del Carmen, Qroo.
+            
+            <br>Reflexión con la que se indentifica: “Defiende tus principios aunque tengas que hacerlo solo” – Jackson Brown</p>
+            	
+            <div class="social">
+            	<ul class="social-icons">
+                    <li><a href="https://www.facebook.com/Hatter.8?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
+                	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Senior Manager/Fundador</span>
+                </div>
+                <img src="_include/img/profile/daniel.png" alt="Jose Eusebio">
+            </div>
+            <h3 class="profile-name">Daniel Vivieros Pinzon</h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la 
+                <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p>             
+            <p>Recide actualmente en Playa del Carmen, Qroo.
+            
+            Miembro activo desde Junio 2015
+            </p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/danychester.viveros/about"><i class="font-icon-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+    </div>
+    <p></p>
+    <div class="row">
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">System Analyst</span>
+                </div>
+                <img src="_include/img/profile/eusebio.png" alt="Jose Eusebio">
+            </div>
+            <h3 class="profile-name">Jose Eusebio Chi Cupul</h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la 
+                <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p>             
+            <p>Recide actualmente en Playa del Carmen, Qroo.
+            
+            Miembro activo desde Abril 2015
+            </p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/joseeusebio.chicupul?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">IT Manager | Socio</span>
+                </div>
+                <img  src="_include/img/profile/solano2.png"  alt="Daniel Solano" >
+            </div>
+            <h3 class="profile-name">Luis Daniel Solano Peraza</h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p>
+            <p>Procedente de México, DF.
+            <br>Recide actualmente en Playa del Carmen, Qroo.
+            
+            <br>Fundador de CenoteMex y socio activo de TecnoRollo</p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/dann.wolfs?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Start Profile -->
+        <div class="span4 profile">
+            <div class="image-wrap">
+                <div class="hover-wrap">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-text-thumb">Senior Manager</span>
+                </div>
+                <img src="_include/img/profile/felipe.png" alt="Felipe Cruz">
+            </div>
+            <h3 class="profile-name">Felipe Hernandez Cruz</h3>
+            <p class="profile-description">Estudiante de la Licenciatura en Ingeniería en Tecnologías de la información y Comunicaciones. En la 
+                <a href="http://www.utrivieramaya.edu.mx/">UTRM</a>.</p>             
+            <p>Recide actualmente en Playa del Carmen, Qroo.
+            
+            Miembro activo desde Noviembre 2015
+            </p>
+                
+            <div class="social">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/felipe.hernandezcruz.79?fref=ts"><i class="font-icon-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+
+
+
+    
+
+        
+
+        <!-- People fin segunda sección -->
+
+    </div>
+
+    
+</div>
+</div>
+
+
+<!-- End About Section -->
+
+
+<!-- Contact Section -->
+<div id="contact" class="page">
+<div class="container">
+    <!-- Title Page -->
+    <div class="row">
+        <div class="span12">
+            <div class="title-page">
+                <h2 class="title">Contactanos</h2>
+                <h3 class="title-description">Estamos a tus ordenes. We look forward to serving you.</h3>
+            </div>
+        </div>
+    </div>
+    <!-- End Title Page -->
+    
+    <!-- Contact Form -->
+    <div class="row">
+    	<div class="span9">
+        
+        	<form id="contact-form" class="contact-form" action="#">
+            	<p class="contact-name">
+            		<input id="contact_name" type="text" placeholder="Nombre Completo" value="" name="name" />
+                </p>
+                <p class="contact-email">
+                	<input id="contact_email" type="text" placeholder="Correo electronico" value="" name="email" />
+                </p>
+                <p class="contact-message">
+                	<textarea id="contact_message" placeholder="Tu mensaje" name="message" rows="15" cols="40"></textarea>
+                </p>
+                <p class="contact-submit">
+                	<a id="contact-submit" class="submit" href="#">Enviar correo</a>
+                </p>
+                
+                <div id="response">
+                
+                </div>
+            </form>
+         
+        </div>
+        
+        <div class="span3">
+        	<div class="contact-details">
+        		<h3>Detalle de contacto</h3>
+                <ul>
+                    <li><a href="#">tecnorollo@sourcing.net</a></li>
+                    <li>(984) 184-38-36</li>
+                    <li>
+                        Calle en Avenida paseo del Mayab N°4000, región 79.
+                        <br>Localidad Playa del Carmen  
+                        <br>Municipio de Solidaridad, Estado de Quintana Roo.
+
+
+
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Contact Form -->
+</div>
+</div>
+<!-- End Contact Section -->
+
+<!-- Twitter Feed -->
+<div id="twitter-feed" class="page-alternate">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <div class="follow">
+                    <a href="#" title="Follow Me on Twitter" target="_blank"><i class="font-icon-social-twitter"></i></a>
+                </div>
+                    
+                <div id="ticker" class="query"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Twitter Feed -->
+
+<!-- Socialize -->
+<div id="social-area" class="page">
+	<div class="container">
+    	<div class="row">
+            <div class="span12">
+                <nav id="social">
+                    <ul>
+                        <li><a href="#" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="#" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+                        <li><a href="#" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+                        <li><a href="#" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+                        <li><a href="https://www.facebook.com/TecnoRollo/?fref=ts" title="Follow us on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="#" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="#" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="#" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+                        <li><a href="#" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Socialize -->
+
+<!-- Footer -->
+<footer>
+	<p class="credits">&copy;2015 Associate. <a href="https://developer.vuforia.com/" title="Vuforia-Develop | Unity-Develop">Supported </a> by <a href="http://unity3d.com/es/" title="Unity 3D">Vuforia and Unity 3D environment</a></p>
+</footer>
+<!-- End Footer -->
+
+<!-- Back To Top -->
+<a id="back-to-top" href="#">
+	<i class="font-icon-arrow-simple-up"></i>
+</a>
+<!-- End Back to Top -->
+
+
+<!-- Js -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
+<script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
+<script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
+<script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
+<script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
+<script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
+<script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
+<script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
+<script src="_include/js/jquery.tweet.js"></script> <!-- Tweet -->
+<script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+<script src="_include/js/main.js"></script> <!-- Default JS -->
+<!-- End Js -->
+
+</body>
+</html>
