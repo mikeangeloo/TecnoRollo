@@ -8,7 +8,7 @@ header('Cache-Control: no-cache, must-revalidate');
 header('Expires: Mon, 26 Jul 2015 05:00:00 GMT');
 header('Content-type: application/json');
 
-$admin_email = 'pc_evolution_pv@yahoo.com.mx'; // Your Email
+$admin_email = 'miguelangel87@tecnorrollo.com'; // Your Email
 $message_min_length = 5; // Min Message Length
 
 
